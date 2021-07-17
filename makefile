@@ -1,5 +1,5 @@
-XYZ.exe:main.o fact.o big3.o
-	gcc -0 XYZ.exe fact.o big3.o 
+ABC.exe:main.o fact.o big3.o
+	gcc -o ABC.exe main.o fact.o big3.o
 main.o:main.c
 	gcc -c main.c
 fact.o:fact.c
